@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.navbar-brand {
+  color: purple;
+}
+
+.list-group-item.active {
+  background-color: blueviolet;
+  border-color: blueviolet;
+}
+
+.list-group-item.list-group-item-action:focus {
+  background-color: blueviolet;
+  border-color: blueviolet;
+}
